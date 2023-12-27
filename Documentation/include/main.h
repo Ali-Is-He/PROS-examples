@@ -35,7 +35,8 @@
 #define PROS_USE_LITERALS
 
 #include "api.h"
-
+#include "robot-config.h" // This line imports all of the hardware we defined from robot-config.h and makes that available in this file
+#include "functions.h"   // This is a file we made for all the functions 
 /**
  * You should add more #includes here
  */
